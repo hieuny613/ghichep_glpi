@@ -1,5 +1,4 @@
 # Hướng dẫn cài đặt cấu hình GLPI trên Alam Linux 8 / Rocky 8
-## 1. Cài đặt MariaDB  
   - Cài đặt curl  
 ```sh
 sudo dnf install curl -y
