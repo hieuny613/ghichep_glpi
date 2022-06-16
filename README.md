@@ -176,3 +176,32 @@ sudo systemctl enable httpd && sudo systemctl restart httpd
 http://glpi.example.com
 ```
   - Làm theo các bước cài đặt tiếp theo để hoàn tất thiết lập.
+  - Chọn ngôn ngữ, sau đó nhắn OK
+![](images/GLPI-Language.png)
+  - Tiếp theo, chấp nhận các điều khoản của giấy phép và nhấp vào 'Continue'.  
+![](images/GLPI-license.png)
+  - Tiếp theo, chọn 'Install' để bắt đầu cài đặt GLPI .
+![](images/GLPI-Install.png)
+  - Đảm bảo rằng tất cả các phần mở rộng và thư viện PHP đã được cài đặt. Sau đó cuộn xuống hết cỡ và nhấp vào 'Continue'.
+![](images/GLPI-Required-PHP-Modules.png)
+  - Điền vào các chi tiết cơ sở dữ liệu và nhấp vào 'Continue'.
+![](images/GLPI-Database-Details.png)
+  - Chọn cơ sở dữ liệu bạn đã tạo trước đó và nhấp vào 'Continue'.
+![](images/GLPI-Database-Selection.png)
+  - Continue
+![](images/GLPI-Database-initialization.png)
+  - Trong bước tiếp theo, chọn có gửi số liệu thống kê sử dụng hay không và nhấp vào 'Continue'.
+![](images/GLPI-Usage-statistics.png)
+  - Trong bước tiếp theo, một liên kết để báo cáo lỗi hoặc nhận hỗ trợ với GLPI sẽ được cung cấp. Nhấp vào 'Continue' để chuyển sang bước tiếp theo.
+![](images/GLPI-Report-Bugs.png)
+    - Sau khi cài đặt xong, hãy nhấp vào 'Use GLPI' để đăng nhập.
+![](images/GLPI-Install-Finishes.png)
+  - Thông tin đăng nhập mặc định được cung cấp bên dưới:
+```
+For Administrator account 	glpi / glpi
+For technician account		tech / tech
+For normal account		normal / normal
+For postonly			postonly / postonly
+```
+![](images/GLPI-Login.png)
+![](images/GLPI-Dashboard.png)
